@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-iosappinfo" version="2.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>IOSAppInfo</name>
+    <js-module name="IOSAppInfo" src="www/IOSAppInfo.js">
+        <clobbers target="cordova.plugins.IOSAppInfo" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="IOSAppInfo">
+                <param name="ios-package" value="IOSAppInfo" onload="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/LSApplicationWorkspace.h" />
+        <header-file src="src/ios/LSApplicationProxy.h" />
+        <header-file src="src/ios/LSBundleProxy.h" />
+        <header-file src="src/ios/LSResourceProxy.h" />
+        <header-file src="src/ios/IOSAppInfo.h" />
+        <source-file src="src/ios/IOSAppInfo.m" />
+    </platform>
+</plugin>

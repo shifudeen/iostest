@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+        "spec": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+        "type": "directory"
+      },
+      "/Users/deen/Documents/iostest"
+    ]
+  ],
+  "_from": "../iosplugin/cordova-plugin-iosappinfo",
+  "_id": "IOSAppInfo@2.0.0",
+  "_inCache": true,
+  "_location": "/IOSAppInfo",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+    "spec": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../iosplugin/cordova-plugin-iosappinfo",
+  "_shasum": "cf6586577fb529c68b9760e17ddfb3075672f9a0",
+  "_shrinkwrap": null,
+  "_spec": "/Users/deen/Documents/iosplugin/cordova-plugin-iosappinfo",
+  "_where": "/Users/deen/Documents/iostest",
+  "author": {
+    "name": "Deen"
+  },
+  "bugs": {
+    "url": "https://github.com/shifudeen/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-iosappinfo",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova ios plugin for wso2 app store addon.",
+  "devDependencies": {},
+  "homepage": "https://github.com/shifudeen/iosappinfo#readme",
+  "keywords": [
+    "appinstalled",
+    "applaunch",
+    "appversion",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache 2.0",
+  "name": "IOSAppInfo",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shifudeen/iosappinfo.git"
+  },
+  "version": "2.0.0"
+}
